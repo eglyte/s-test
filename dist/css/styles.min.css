@@ -1,0 +1,12 @@
+:root{--body-bg:#ebf6f8;--orange:#ff5c00;--grey:#ebebeb;--black:#000;--white:#fff}
+.header__row{padding:2rem;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}
+@media screen and (min-width:768px){.header__row{padding:4rem}}.header__logo{width:10rem}
+.header__action--cart{background:url("/images/bag.svg") no-repeat center center;background-size:24px 24px;color:var(--black);display:block;font-size:.75rem;height:1.5rem;line-height:2.5;width:1.5rem;text-align:center;text-decoration:none;vertical-align:middle}
+@media screen and (min-width:768px){.header{position:absolute;top:0;width:100%;z-index:10}
+}.split{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;text-align:center}
+.split__left{background-color:var(--white)}.split__right{background-color:var(--body-bg)}
+.split .item{padding:6rem}@media screen and (min-width:768px){.split{height:100%;width:50%;position:fixed;z-index:1;top:0;overflow-x:hidden;padding-top:100px}
+.split__left{left:0}.split__right{right:0}}.product-tile{background:var(--white);box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);border-radius:4px;padding:2rem 1.25rem 3rem}
+.product-tile__title{font-weight:300;text-transform:capitalize}.product-tile__price{color:var(--orange);font-weight:700;margin:1rem 0 1.5rem}
+.button{border-radius:20px;cursor:pointer;display:inline-block;font-size:.875rem;padding:.5rem 2rem;text-align:center;text-transform:uppercase}
+.button__primary{background:var(--orange);color:var(--white)}.responsive{max-width:100%;height:auto}

@@ -1,0 +1,119 @@
+:root {
+  --body-bg: #EBF6F8;
+  --orange: #FF5C00;
+  --grey: #EBEBEB;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+.header {
+
+  &__row {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (min-width: 768px) {
+      padding: 4rem;
+    }
+  }
+
+  &__logo {
+    width: 10rem;
+  }
+
+  &__action--cart {
+    background: url("/images/bag.svg") no-repeat center center;
+    background-size: 24px 24px;
+    color: var(--black);
+    display: block;
+    font-size: 0.75rem;
+    height: 1.5rem;
+    line-height: 2.5;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+}
+
+
+.split {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__left {
+    background-color: var(--white);
+  }
+
+  &__right {
+    background-color: var(--body-bg);
+  }
+
+  .item {
+    padding: 6rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 100px;
+
+    &__left {
+      left: 0;
+    }
+    &__right {
+      right: 0;
+    }
+  }
+}
+
+.product-tile {
+  background: var(--white);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  padding: 2rem 1.25rem 3rem;
+
+  &__title {
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+
+  &__price {
+    color: var(--orange);
+    font-weight: 700;
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+.button {
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.875rem;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  &__primary {
+    background: var(--orange);
+    color: var(--white);
+  }
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
