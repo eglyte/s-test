@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bark</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap"
+          rel="stylesheet">
+    <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- endbuild -->
+</head>
+<body>
+<header class="header">
+    <div class="header__row">
+        <div class="header__logo">
+            <img src="images/logo.svg" alt="Bark">
+        </div>
+        <div class="header__cart">
+            <a href="#" class="header__action action__cart">
+                1
+            </a>
+        </div>
+    </div>
+</header>
+<main role="main">
+    <section class="split split__left">
+        <div class="item item_centered">
+            <h1>Title</h1>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind
+                texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean.</p>
+        </div>
+    </section>
+    <section class="split split__right">
+        <div class="item item_centered">
+            <article class="product-tile">
+                <picture>
+                    <source srcset="images/chicken.png 768w">
+                    <source srcset="images/chicken@2x.png 2x">
+                    <img src="images/chicken.png" alt="Chicken" loading="lazy" class="product-tile__image responsive">
+                </picture>
+                <div class="product-tile__body">
+                    <h3 class="product-tile__title">Natures menu dog food can chicken</h3>
+                    <div class="product-tile__price">£22.45</div>
+                    <div class="product-tile__quickshop">
+                        <div class="button button__primary" aria-label="Add to bag">Add to bag</div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+<div class="panel-wrap">
+    <div class="panel panel__cart">
+        <div class="panelHeader">
+            <div class="panelHeader__row">
+                <div class="panelHeader__title">
+                    <h2>Your bag</h2>
+                </div>
+                <div class="panelHeader__action action__close">
+                    <svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                        <title>Close</title>
+                        <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                           stroke-linecap="round">
+                            <g id="Mini-Cart-V2-–-Mobile" transform="translate(-368.000000, -98.000000)"
+                               stroke="#000000" stroke-width="1.5">
+                                <g id="Close" transform="translate(369.000000, 99.000000)">
+                                    <line x1="0" y1="0" x2="12" y2="12" id="Path-2"></line>
+                                    <line x1="0" y1="0" x2="12" y2="12" id="Path-2-Copy"
+                                          transform="translate(6.000000, 6.000000) scale(-1, 1) translate(-6.000000, -6.000000) "></line>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="panelBody">
+            <div class="cart__product panelBody__row">
+                <picture class="panelBody__col">
+                    <source srcset="images/chicken.png 768w">
+                    <source srcset="images/chicken@2x.png 2x">
+                    <img src="images/chicken.png" alt="Chicken" loading="lazy" class="product-tile__image responsive">
+                </picture>
+                <div class="product-tile__body panelBody__col">
+                    <h5 class="product-tile__title">Natures menu dog food can chicken</h5>
+                    <div class="product-tile__price">£22.45</div>
+                    <div class="product-tile__actions">
+                        <a href="#" class="text-uppercase text-underline" aria-label="Remove">Remove</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panelFooter">
+            <div class="panelFooter__price">Subtotal: £22.45</div>
+            <div class="panelFooter__action">
+                <div class="button button__primary" aria-label="Proceed to checkout">Proceed to checkout</div>
+                <div class="panelFooter__action-link">
+                    <a href="#" class="text-uppercase text-underline" aria-label="Continue shopping">Continue shopping</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="overlay"></div>
+<div class="loader"></div>
+<!-- build:js js/main.min.js -->
+<script src="js/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>
