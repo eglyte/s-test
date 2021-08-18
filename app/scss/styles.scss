@@ -1,3 +1,4 @@
+@import "reboot";
 :root {
   --body-bg: #EBF6F8;
   --orange: #FF5C00;
@@ -137,7 +138,7 @@
 .action {
 
   &__cart {
-    background: url("/images/bag.svg") no-repeat center center;
+    background: url("../images/bag.svg") no-repeat center center;
     background-size: 24px 24px;
     color: var(--black);
     display: block;
