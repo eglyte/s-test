@@ -20,14 +20,14 @@ products, calculate total prices, or increment the cart counter._
 - Build reusable components that could be used on other areas of the website
 - Use Roboto and Open Sans fonts – which are available via Google Fonts.
 
-Don’t:
+**Don’t:**
 - Use any frameworks for styling or functionality (e.g. Bootstrap, React).
 - Use any third party plugins providing modal functionality (e.g. Lightbox).
 
 #### Stylesheet Colours
 
-Main background #EBF6F8   
-Orange          #FF5C00  
-Grey borders    #EBEBEB  
-Black (text)    #000000  
-White           #FFFFFF  
+Main background `#EBF6F8`   
+Orange          `#FF5C00`  
+Grey borders    `#EBEBEB`  
+Black (text)    `#000000`  
+White           `#FFFFFF`  
